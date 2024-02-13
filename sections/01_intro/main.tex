@@ -1,0 +1,37 @@
+\documentclass[a4paper, 12pt]{ltjsreport}
+\input{../../pre.tex}
+\addbibresource{reference.bib}
+\begin{document}
+\chapter{序論}
+イントロ 
+
+引用\cite{Lang_2010}
+
+画像：図\ref{fig:01_image}
+\begin{figure}[ht]
+  \centering
+  \includegraphics[keepaspectratio, scale=1.0]
+  {assets/01_image.png}
+  \caption{キャプション}
+  \label{fig:01_image}
+\end{figure}
+
+表：表\ref{table:01_table}
+\begin{table}[ht]
+  \centering
+  \begin{tabular}{|c|c|c|} \hline
+    A & B    & C  \\ \hline
+    A & B    & C  \\ \hline
+    A & B    & C  \\ \hline
+    A & B    & C  \\ \hline
+    A & B    & C  \\ \hline
+    A & B    & C  \\ \hline
+    A & B    & C  \\ \hline
+    A & B    & C  \\ \hline
+  \end{tabular}
+  \caption{長いキャプション長いキャプション長いキャプション長いキャプション長いキャプション長いキャプション長いキャプション長いキャプション長いキャプション長いキャプション}
+  \label{table:01_table}
+\end{table}
+\subbib
+\end{document}
+

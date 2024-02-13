@@ -1,0 +1,38 @@
+{
+  "plugins": [
+    "latex2e"
+  ],
+  "filters": {
+    "allowlist": {
+      "allow": []
+    },
+    "comments": true
+  },
+  "rules": {
+    "ja-no-abusage": true,
+    "ja-no-mixed-period": true,
+    "ja-simple-user-dictionary": true,
+    "no-doubled-conjunctive-particle-ga": true,
+    "ja-hiragana-fukushi": true,
+    "ja-hiragana-hojodoushi": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "preset-ja-technical-writing": {
+      "sentence-length": false,
+      "no-exclamation-question-mark": false,
+      "no-mix-dearu-desumasu": false,
+      "max-kanji-continuous-len": {
+        "max": 8,
+        "allow": []
+      }
+    },
+    "preset-ja-spacing": {
+      "ja-space-between-half-and-full-width": {
+        "space": "always"
+      }
+    },
+    "sentence-length": {
+      "severity": "warning",
+      "max": 200
+    }
+  }
+}

@@ -1,0 +1,40 @@
+% https://qiita.com/zr_tex8r/items/297154ca924749e62471
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{docmute}
+\usepackage{diffcoeff}
+\usepackage{physics2}
+\usepackage{fixdif}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[cachedir=images/cache]{graphicscache}
+\usepackage{multirow}
+\usepackage[figure,table]{totalcount}
+\usepackage{listings}
+\lstset{
+  breaklines=true,
+  keywordstyle = {\small\bfseries\color[rgb]{0,0,1}},
+  stringstyle = {\color[rgb]{1,0,0}},
+  commentstyle = {\smallitshape \color[rgb]{0,1,0}},
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  numberstyle={\scriptsize},
+  numbers=left,
+  frame=lines
+}
+\usephysicsmodule{ab}
+\usepackage{hyperref}
+\hypersetup{unicode,bookmarksnumbered=true,hidelinks,final}
+\usepackage[sorting=none]{biblatex}
+\usepackage{afterpage}
+\newcommand{\clearfig}{
+  \afterpage{\clearpage}
+}
+\newcommand{\mqty}[1]{\begin{matrix}#1\end{matrix}}
+\newcommand{\subfilecmd}[1]{#1}
+\newcommand{\subbib}{
+  \subfilecmd{\printbibliography[title=参考文献]}
+}
+

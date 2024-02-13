@@ -1,0 +1,15 @@
+{
+  "image": {
+    "prefix": "image",
+    "body": [
+      "\\begin{figure}[ht]",
+      "  \\centering",
+      "  \\includegraphics[keepaspectratio, scale=1.0]",
+      "  {assets/name.png}",
+      "  \\caption{}",
+      "  \\label{fig:name}",
+      "\\end{figure}"
+    ],
+    "description": ""
+  }
+}
